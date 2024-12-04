@@ -19,6 +19,9 @@ module.exports = class BloomFilter {
     return hash % 100; 
   } 
  
+
+
+  
   hash1(item) {
     let hash = 0;
     for (let i = 0; i < item.length; i++) {
