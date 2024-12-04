@@ -50,8 +50,10 @@ module.exports = class BinarySearchTree {
       }
     }
   }
+  
 
-  has( data ) {
+
+  has( data )  { 
     let current = this.treeRoot;
 
     while (current) {
