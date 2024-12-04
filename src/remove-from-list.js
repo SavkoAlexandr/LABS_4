@@ -12,8 +12,6 @@ module.exports = function removeKFromList(l, k) {
   while (current !== null && current.value === k) {
     current = current.next;
   }
-
-  
   let newHead = current;
   let prev = null;
 
@@ -28,6 +26,7 @@ module.exports = function removeKFromList(l, k) {
     current = current.next;
   }
 
+  
   
   return newHead;
 };
